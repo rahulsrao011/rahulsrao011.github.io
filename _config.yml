@@ -1,0 +1,48 @@
+# ============================================================
+#  SITE SETTINGS — this is the only file you need to edit to
+#  change your name, tagline, links, etc.
+# ============================================================
+
+title: Rahul Rao
+tagline: Software engineer.            # one short line under your name
+description: Rahul Rao's personal site and blog.   # used for search engines / link previews
+
+# Links shown on the home page. Delete any line you don't want.
+email: rahulsrao011@gmail.com
+github: rahulsrao011
+linkedin: rahulsrao011               # the part after linkedin.com/in/
+
+# Where the site lives (don't change unless you add a custom domain)
+url: "https://rahulsrao011.github.io"
+baseurl: ""
+
+# ---- Technical settings (safe to leave alone) ----
+timezone: America/Los_Angeles
+future: true                 # publish posts even if their date is "today" in a timezone ahead of the server
+permalink: /blog/:title/
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+
+# Site sections shown in the navigation. Add or remove lines to change the menu.
+nav:
+  - title: Home
+    url: /
+  - title: Blog
+    url: /blog/
+  - title: Projects
+    url: /projects/
+  - title: About
+    url: /about/

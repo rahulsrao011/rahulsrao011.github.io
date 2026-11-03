@@ -1,0 +1,17 @@
+{% comment %}
+  Renders a list of posts. Usage:
+  {% include post-list.html posts=site.posts %}
+  {% include post-list.html posts=site.posts max=5 %}
+{% endcomment %}
+{% assign max = include.max | default: 10000 %}
+<ul class="post-list">
+  {% for post in include.posts limit: max %}
+  <li class="post-list-item">
+    <a class="post-list-link" href="{{ post.url | relative_url }}">
+      <span class="post-list-title">{{ post.title }}</span>
+      <time class="post-list-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+    </a>
+    {% if post.subtitle %}<p class="post-list-excerpt">{{ post.subtitle }}</p>{% endif %}
+  </li>
+  {% endfor %}
+</ul>
