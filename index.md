@@ -13,7 +13,7 @@ Hi, I'm Rahul. I build software and write about what I learn along the way. I'm 
 
 </section>
 
-  <p class="contact-line">Find me on <a href="https://github.com/{{ site.github }}" target="_blank" rel="noopener">GitHub&nbsp;&#x2197;</a> and <a href="https://www.linkedin.com/in/{{ site.linkedin }}" target="_blank" rel="noopener">LinkedIn&nbsp;&#x2197;</a>.</p>
+  <p class="contact-line">Find me on <a href="https://github.com/{{ site.github }}" target="_blank" rel="noopener">GitHub&nbsp;&#x2197;</a>, <a href="https://www.linkedin.com/in/{{ site.linkedin }}" target="_blank" rel="noopener">LinkedIn&nbsp;&#x2197;</a>, and <a href="https://www.about.me/rahulsrao" target="_blank" rel="noopener">about me&nbsp;&#x2197;</a>.</p>
 
 
 {% if site.posts.size > 0 %}
