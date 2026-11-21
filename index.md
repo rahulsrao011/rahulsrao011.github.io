@@ -1,29 +1,10 @@
 ---
-layout: default
+layout: home
 ---
-
-<section class="hero">
-  <h1 class="hero-name">{{ site.title }}</h1>
-  <p class="hero-tagline">{{ site.tagline }}</p>
-</section>
-
-<section class="about" markdown="1">
 
 Hi, I'm Rahul. I build software and write about what I learn along the way.
 
-</section>
+Find me on:
 
-  <p class="contact-line">Find me on: </p>
-  
-  - <a href="https://github.com/{{ site.github }}" target="_blank" rel="noopener">GitHub&nbsp;&#x2197;</a>
-  
-  - <a href="https://www.linkedin.com/in/{{ site.linkedin }}" target="_blank" rel="noopener">LinkedIn&nbsp;&#x2197;</a>
-
-
-{% if site.posts.size > 0 %}
-<section class="recent">
-  <h2 class="section-title">Recent writing</h2>
-  {% include post-list.html posts=site.posts max=5 %}
-  {% if site.posts.size > 5 %}<p class="more-link"><a href="{{ '/blog/' | relative_url }}">All posts &rarr;</a></p>{% endif %}
-</section>
-{% endif %}
+- [GitHub ↗](https://github.com/rahulsrao011){:target="_blank" rel="noopener"}
+- [LinkedIn ↗](https://www.linkedin.com/in/rahulsrao011){:target="_blank" rel="noopener"}
