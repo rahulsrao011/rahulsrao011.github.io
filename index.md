@@ -9,7 +9,7 @@ layout: default
 
 <section class="about" markdown="1">
 
-Hi, I'm Rahul. I build software and write about what I learn along the way. I'm currently looking for new opportunities — feel free to reach out.
+Hi, I'm Rahul. I build software and write about what I learn along the way.
 
 </section>
 
