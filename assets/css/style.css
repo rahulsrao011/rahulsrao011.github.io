@@ -47,6 +47,9 @@ p  { margin: 0 0 1.2em; }
 /* Home page */
 .hero-tagline { font-size: 1.15rem; color: var(--dim); margin-bottom: 40px; }
 .contact-line { color: var(--dim); margin-bottom: 56px; }
+.hero { display: flex; align-items: center; gap: 24px; margin-bottom: 40px; }
+.hero .hero-tagline { margin-bottom: 0; }
+.photo { width: 96px; height: 96px; border-radius: 50%; object-fit: cover; flex-shrink: 0; }
 
 /* Section heading above a post list */
 .section-title { font-size: 1.05rem; margin: 0 0 12px; padding-bottom: 10px; border-bottom: 1px solid var(--rule); }
