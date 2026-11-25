@@ -38,7 +38,7 @@ exclude:
 nav:
   - title: Home
     url: /
-  - title: Blog
-    url: /blog/
+  - title: Writing
+    url: /writing/
   - title: Projects
     url: /projects/
