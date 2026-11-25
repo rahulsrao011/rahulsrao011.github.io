@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Blog
-permalink: /blog/
+title: Writing
+permalink: /writing/
 ---
 
-<h1 class="page-title">Blog</h1>
+<h1 class="page-title">Writing</h1>
 
 {% if site.posts.size > 0 %}
 {% include post-list.html posts=site.posts %}
