@@ -4,7 +4,7 @@
 # ============================================================
 
 title: Rahul Rao
-description: Rahul Rao's personal site and blog.   # used for search engines / link previews
+description: Rahul Rao's personal site.   # used for search engines / link previews
 
 # Links shown on the home page. Delete any line you don't want.
 github: rahulsrao011
@@ -17,7 +17,7 @@ baseurl: ""
 # ---- Technical settings (safe to leave alone) ----
 timezone: America/Los_Angeles
 future: true                 # publish posts even if their date is "today" in a timezone ahead of the server
-permalink: /blog/:title/
+permalink: /writing/:title/
 markdown: kramdown
 kramdown:
   input: GFM
