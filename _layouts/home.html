@@ -9,9 +9,3 @@ layout: default
   </div>
 </div>
 {{ content }}
-
-{% if site.posts.size > 0 %}
-<h2 class="section-title">Recent writing</h2>
-{% include post-list.html posts=site.posts max=5 %}
-{% if site.posts.size > 5 %}<p><a href="{{ '/writing/' | relative_url }}">All posts &rarr;</a></p>{% endif %}
-{% endif %}
